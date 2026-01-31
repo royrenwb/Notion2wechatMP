@@ -1,0 +1,17 @@
+{
+  "name": "notion-publisher",
+  "version": "1.0.0",
+  "description": "Publish Notion pages to WeChat Official Account",
+  "main": "bin/publish.js",
+  "bin": {
+    "notion-publisher": "bin/publish.js"
+  },
+  "scripts": {
+    "start": "node bin/publish.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0",
+    "markdown-it": "^14.0.0"
+  }
+}
